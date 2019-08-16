@@ -1,11 +1,14 @@
-# Automação ApiMarvel
+# Automação UI/API Simulação Investimento.
 
-Automação api marvel, java11 junit5, gradle
+Automação usando java11 junit5 e gradle;
 
-Como executar a aplicação Certifique-se de ter o Gradle instalado e adicionado ao PATH de seu sistema operacional, assim como o Git.
+Como executar a aplicação:
 
-git clone https://github.com/Leancb/RegistraPonto.git
+- Certifique-se de ter o Gradle instalado e adicionado ao PATH de seu sistema operacional, assim como o Git.
 
-No terminal, execute a seguinte operação:
+- git clone https://github.com/Leancb/SimulaInvestimento
 
-mvn eclipse:eclipse No Eclipse/STS, importe o projeto com o projeto Gradle.
+- No terminal, execute a seguinte operação:
+
+- mvn eclipse:eclipse No Eclipse/STS, importe o projeto com o projeto Gradle.
+
