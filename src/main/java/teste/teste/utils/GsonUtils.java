@@ -13,7 +13,7 @@ import java.time.ZonedDateTime;
 @Component
 public class GsonUtils {
 
-    public static String objectToString( Object o) {
+    public static String objectToString(Object o) {
         Gson gson = new GsonBuilder()
                 .registerTypeAdapter(ZonedDateTime.class, new TypeAdapter<ZonedDateTime>() {
                     @Override
@@ -22,7 +22,7 @@ public class GsonUtils {
                     }
 
                     @Override
-                    public ZonedDateTime read( JsonReader in) throws IOException {
+                    public ZonedDateTime read(JsonReader in) throws IOException {
                         return ZonedDateTime.parse(in.nextString());
                     }
                 })
@@ -31,7 +31,7 @@ public class GsonUtils {
         return gson.toJson(o);
     }
 
-    public static <T extends Object> T stringToObject( String s, Class<T> type) {
+    public static <T extends Object> T stringToObject(String s, Class<T> type) {
         Gson gson = new GsonBuilder()
                 .registerTypeAdapter(ZonedDateTime.class, new TypeAdapter<ZonedDateTime>() {
                     @Override
@@ -40,7 +40,7 @@ public class GsonUtils {
                     }
 
                     @Override
-                    public ZonedDateTime read( JsonReader in) throws IOException {
+                    public ZonedDateTime read(JsonReader in) throws IOException {
                         return ZonedDateTime.parse(in.nextString());
                     }
                 })

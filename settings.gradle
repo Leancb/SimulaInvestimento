@@ -1,2 +1,6 @@
-rootProject.name = 'SimulaInvetimento'
-
+pluginManagement {
+	repositories {
+		gradlePluginPortal()
+	}
+}
+rootProject.name = 'teste'

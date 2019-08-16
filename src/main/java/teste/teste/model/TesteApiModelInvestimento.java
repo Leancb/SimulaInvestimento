@@ -5,13 +5,13 @@ import java.util.List;
 public class TesteApiModelInvestimento {
 
     private String id;
-    private List<String> mes;
+    private List<String> meses;
     private List<String> valor;
 
 
-    public TesteApiModelInvestimento( String id, List<String> mes, List<String> valor ) {
+    public TesteApiModelInvestimento( String id, List<String> meses, List<String> valor ) {
         this.id = id;
-        this.mes = mes;
+        this.meses = meses;
         this.valor = valor;
     }
 
@@ -25,11 +25,11 @@ public class TesteApiModelInvestimento {
     }
 
     public List<String> getMeses() {
-        return mes;
+        return meses;
     }
 
     public void setMeses( List<String> meses ) {
-        this.mes = mes;
+        this.meses = meses;
     }
 
     public List<String> getValor() {

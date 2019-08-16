@@ -6,7 +6,7 @@ import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 import teste.TesteApplication;
 import teste.teste.model.TesteApiModelInvestimento;
-import teste.teste.model.service.ApiServiceInvestimento;
+import teste.teste.service.ApiServiceInvestimento;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,8 +20,7 @@ public class SimuladorService {
     @Test
     public void validaIdInvestimento() {
 
-        TesteApiModelInvestimento testeApiModelInvestimento = ApiServiceInvestimento.processaApiInvestimento();
-
+       TesteApiModelInvestimento testeApiModelInvestimento = ApiServiceInvestimento.processaApiInvestimento();
 
         Assert.assertEquals(testeApiModelInvestimento.getId(), "1");
 
@@ -31,20 +30,12 @@ public class SimuladorService {
         stringList.add("136");
         stringList.add("148");
 
+        for (int i = 0; i < testeApiModelInvestimento.getMeses().size(); i++) {
 
-        for (String mes : testeApiModelInvestimento.getMeses() ) {
+            Assert.assertEquals(testeApiModelInvestimento.getMeses().get(i), stringList.get(i));
 
-            System.out.println(mes);
+            System.out.println("\n Aplicação Sicredi em " + testeApiModelInvestimento.getMeses().get(i) + " meses terá saldo de R$ " + testeApiModelInvestimento.getValor().get(i) +",00");
 
-            // String nome = testeApiCharacter.getName();
-
-            if (testeApiModelInvestimento.getMeses().equals("112")) {
-
-                Assert.assertEquals(testeApiModelInvestimento.getMeses(), "122");
-
-                System.out.println("Teste valida que existe id " + testeApiModelInvestimento.getId() + " validando funcionamento da API.");
-
-            }
         }
     }
 

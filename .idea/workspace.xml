@@ -1,15 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a4f4a89-5e4c-454b-a81a-d443e3c0057b" name="Default Changelist" comment="" />
+    <list default="true" id="90d15366-2a52-4cdf-a3f7-b17a3cc170fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/teste/teste/model/TesteApiModelInvestimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/teste/teste/service/ApiServiceInvestimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Feature/SimulaInvestimento.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SimuladorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/codigo/SimuladorInvest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/codigo/ValidaAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/TesteApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/model/TesteApiCharacter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/model/TesteApiCharacterDataContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/model/TesteApiCharacterDataWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/model/TesteApiModelCaracters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/model/TesteApiModelCharacterDataWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/model/TesteApiModelComicDataContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/model/TesteApiModelComicDataWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/model/TesteApiModelComics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/model/TesteApiModelCreators.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/model/TesteApiModelCreatorsDataContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/model/TesteApiModelCreatorsDataWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/model/TesteApiModelEventDataContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/model/TesteApiModelEventDataWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/model/TesteApiModelEvents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/model/TesteApiModelSeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/model/TesteApiModelSeriesDataWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/model/TesteApiModelStories.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/model/TesteApiModelStoriesDataWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/service/ApiServiceCaracters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/service/ApiServiceCharacter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/service/ApiServiceCharacterDataWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/service/ApiServiceComicDataWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/service/ApiServiceComics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/service/ApiServiceCreators.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/service/ApiServiceCreatorsDataWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/service/ApiServiceEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/service/ApiServiceEventDataWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/service/ApiServiceEvents.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/service/ApiServiceSeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/service/ApiServiceSeriesDataWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/service/ApiServiceStories.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/service/ApiServiceStoriesDataWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/utils/GsonUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/teste/teste/utils/GsonUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/utils/GsonUtils$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/teste/teste/utils/GsonUtils$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/teste/teste/utils/GsonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/teste/teste/utils/GsonUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/TesteService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/testeHttp.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/TesteApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/teste/TesteApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/model/TesteApiCharacter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/model/TesteApiCharacterDataContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/model/TesteApiCharacterDataWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/model/TesteApiModelCaracters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/model/TesteApiModelCharacterDataWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/model/TesteApiModelComicDataContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/model/TesteApiModelComicDataWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/model/TesteApiModelComics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/model/TesteApiModelCreators.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/model/TesteApiModelCreatorsDataContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/model/TesteApiModelCreatorsDataWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/model/TesteApiModelEventDataContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/model/TesteApiModelEventDataWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/model/TesteApiModelEvents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/model/TesteApiModelSeries.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/model/TesteApiModelSeriesDataWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/model/TesteApiModelStories.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/model/TesteApiModelStoriesDataWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/service/ApiServiceCaracters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/service/ApiServiceCharacter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/service/ApiServiceCharacterDataWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/service/ApiServiceComicDataWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/service/ApiServiceComics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/service/ApiServiceCreators.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/service/ApiServiceCreatorsDataWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/service/ApiServiceEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/service/ApiServiceEventDataWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/service/ApiServiceEvents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/service/ApiServiceSeries.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/service/ApiServiceSeriesDataWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/service/ApiServiceStories.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/teste/teste/service/ApiServiceStoriesDataWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Feature/testeHttp.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TesteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testeHttp.feature" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -27,61 +133,7 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SimulaInvetimento" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SimulaInvetimento" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SimulaInvetimento" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SimulaInvetimento" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SimulaInvetimento" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SimulaInvetimento" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SimulaInvetimento" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SimulaInvetimento" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SimulaInvetimento" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build setup" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="SimulaInvetimento" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="help" type="c8890929:TasksNode$1" />
+                <item name="teste" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -90,34 +142,49 @@
       </state>
     </system>
   </component>
-  <component name="ProjectId" id="1PTbkHAPN7sSddDx9nS9TFlLDlo" />
+  <component name="FavoritesManager">
+    <favorites_list name="teste" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Serie</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Stories</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1PQ5t9FJtbphZSYINYXQsBl2NWP" />
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\leandro.brum\Documents\SimulaInvestimento\src\test\java\Feauture" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leanc\Desktop\Nova pasta\Automa-oApiMarvel-master" />
+      <recent name="C:\Users\leanc\Desktop\Nova pasta\Automa-oApiMarvel-master\src\main\java\teste\teste\service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
+      <recent name="teste.teste.model" />
+      <recent name="teste.teste.service" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\leandro.brum\Documents\SimulaInvestimento\src\test\java" />
-      <recent name="C:\Users\leandro.brum\Documents\SimulaInvetimento\src\main\java" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\leanc\Desktop\Nova pasta\Automa-oApiMarvel-master\src\main\java\teste\exception" />
     </key>
-  </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="gradle buildDependents" />
-    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -131,14 +198,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: SimulaInvestimento">
-    <configuration name="Feature: SimulaInvestimento" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber java.Scenario: Validar retorno da API">
+    <configuration name="Scenario: Validar retorno da API" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/SimulaInvestimento.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Feature/SimulaInvestimento.feature" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="SimulaInvetimento.test" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: SimulaInvestimento" />
+      <module name="teste.test" />
+      <option name="NAME_FILTER" value="^Validar retorno da API$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^Validar retorno da API$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validar retorno da API" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -149,29 +217,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: SimulaInvestimento" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Feauture/SimulaInvestimento.feature" />
-      <option name="MAIN_CLASS_NAME" value="teste.TesteApplication" />
-      <module name="SimulaInvetimento.test" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: SimulaInvestimento" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimulaInvestimento [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Automa-oApiMarvel-master [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -180,21 +231,32 @@
             <option value="buildDependents" />
           </list>
         </option>
-        <option name="vmOptions" value="" />
+        <option name="vmOptions" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="All in SimulaInvetimento.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SimulaInvetimento.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="Automa-oApiMarvel-master [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="SimuladorService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SimulaInvetimento.test" />
+      <module name="teste.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SimuladorService" />
       <option name="TEST_OBJECT" value="class" />
@@ -202,27 +264,99 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TesteService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="teste.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesteService" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="SimulaInvetimento" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="SimulaInvetimento" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Feature: SimulaInvestimento" />
+        <item itemvalue="Cucumber java.Scenario: Validar retorno da API" />
         <item itemvalue="JUnit.SimuladorService" />
-        <item itemvalue="Gradle.SimulaInvestimento [buildDependents]" />
-        <item itemvalue="Cucumber java.Feature: SimulaInvestimento" />
-        <item itemvalue="JUnit.All in SimulaInvetimento.test" />
+        <item itemvalue="JUnit.TesteService" />
+        <item itemvalue="Gradle.Automa-oApiMarvel-master [buildDependents]" />
+        <item itemvalue="Gradle.Automa-oApiMarvel-master [clean]" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SQLPlugin.ProjectConfiguration">
+    <queries />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4a4f4a89-5e4c-454b-a81a-d443e3c0057b" name="Default Changelist" comment="" />
-      <created>1565901174657</created>
+      <changelist id="90d15366-2a52-4cdf-a3f7-b17a3cc170fd" name="Default Changelist" comment="" />
+      <created>1563807264981</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565901174657</updated>
+      <updated>1563807264981</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

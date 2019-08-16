@@ -14,13 +14,13 @@ public class ExceptionTemplate extends RuntimeException {
         this.httpStatus = HttpStatus.INTERNAL_SERVER_ERROR;
     }
 
-    public ExceptionTemplate( Exception e){
+    public ExceptionTemplate(Exception e){
         super(e);
         this.code = -1;
         this.httpStatus = HttpStatus.INTERNAL_SERVER_ERROR;
     }
 
-    public ExceptionTemplate( int code, String message, HttpStatus httpStatus){
+    public ExceptionTemplate(int code, String message, HttpStatus httpStatus){
         super(message);
         this.code = code;
         this.httpStatus = httpStatus;

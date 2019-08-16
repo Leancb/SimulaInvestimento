@@ -1,6 +1,5 @@
 package teste.exception;
 
-
 import org.springframework.http.HttpStatus;
 
 public enum ExceptionEnum {

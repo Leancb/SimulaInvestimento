@@ -10,7 +10,7 @@ public class TesteApplication {
 
     static { TimeZone.setDefault(TimeZone.getTimeZone("America/Sao_Paulo")); }
 
-	public static void main( String[] args) { SpringApplication.run(TesteApplication.class, args);
+	public static void main(String[] args) { SpringApplication.run(TesteApplication.class, args);
 	}
 
 

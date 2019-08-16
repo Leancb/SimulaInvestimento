@@ -1,7 +1,7 @@
-package teste.teste.model.service;
+package teste.teste.service;
 
-import io.cucumber.core.logging.Logger;
-import io.cucumber.core.logging.LoggerFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.client.RestTemplate;
 import teste.exception.ExceptionEnum;
 import teste.teste.model.TesteApiModelInvestimento;
